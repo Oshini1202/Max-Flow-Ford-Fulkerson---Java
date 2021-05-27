@@ -28,3 +28,6 @@ As shown in above, first I printed the number of nodes, then each edge’s start
 
 ![image](https://user-images.githubusercontent.com/66233975/119770524-edb25480-bed9-11eb-9c9f-ca16b5796bb4.png)
 
+For that implementation, I used 4 text data files which includes 6 ,12, 24,48 number of vertices respectively to apply doubling hypothesis in there. And the number of edges include in those files also have a respective doubling pattern. I ran all the text files 5 times and got the average time spent and put it there as the elapsed time.   As the above graph and table, four nodes are utilized in order to calculate the time period and because the number of nodes used is high, the accuracy of the graph is additionally high. As the above table, when the number of nodes increases the time spent for the calculation of maximum flow also increases. Because of that reason the graph takes the shape of a positive quadratic equation. From node 24 to 48, gradient of the graph has increased rapidly. According to the quadratic function shape of the graph, time complexity also takes a shape of a quadratic function and it called quadratic time.And also this algorithm has two nested for loops. Therefore, the Big-O notation can represent as below.
+
+_Big O = O(n2 )_
